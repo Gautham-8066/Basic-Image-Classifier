@@ -9,7 +9,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-data_directory = '/Users/ASUS/Downloads/ParkingLotDetectorAndCounter-20250125T203719Z-001/ParkingLotDetectorAndCounter/clf-data'
+data_directory = 'Location/directory of files to be trained'
+#change this with what categories you want to classify the images
 categories = ['empty', 'not_empty']
 
 images_data = []
